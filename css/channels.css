@@ -1,0 +1,117 @@
+* {
+				box-sizing : border-box;
+				font-family : 'Lucida Grande', sans-serif;
+        border-color : #c5919d;
+      
+			}
+
+			html, body {
+				height : 100%;
+				margin : 0px;
+			}
+ 
+			div {
+				display :inline-block;
+			}			
+			.main-header {
+				height : 30px;
+			}
+
+			.main-section {
+				display :inline-block;
+				width : 85%;	
+				float : right;		
+				padding : 10px 20px;	
+				height: 100%;
+				margin-top : 2.5rem;
+			}
+
+			#messages-list {
+				margin : auto 0;
+    			height: 30em;
+    			overflow-y: scroll;
+    			border: 1px blue solid;		
+    			padding: 0.2rem 1rem;
+          border-color : #c5919d;
+          width : 82%;
+          float : right;
+          margin-top: 25px;
+         
+          
+			}
+			.message-row {
+				display: inline-block;
+				width :100%;
+				margin-bottom: 20px;
+			}
+			.message-image {
+				display : inline-block;
+				width : 10%;	
+				float : left;
+				min-width: 30px;
+				max-width: 30px;	
+        color : #c5919d
+			}
+			.message-image img {
+				max-width: 60px;
+			}
+			.message-meta-text {
+				display : inline-block;
+				width : 90%;	
+				float : right;	
+				padding : 0.2em 0.2em 0.2em 0.2em;					
+			}				
+			.message-text {
+				display : inline-block;
+				width : 100%;	
+				float : left;	
+        color : #525252;
+			}	
+			.message-time {
+				display : inline-block;
+				font-size: 0.8rem;	
+        color : #525252;
+			}				
+			.message-author {
+				display: inline-block;
+				vertical-align: top;				
+				font-weight: bold;	
+				padding : 0.2em 2em 0.2em 0em;
+				width : 5rem;	
+        color : #525252;
+			}		
+			.message-box {
+				width : 80%;
+				font-size: 1em;
+				margin : 1em, auto;
+				height : 5em;
+			}
+			footer {
+				margin : 1em 0em;
+			}
+
+			#message {
+				width : 74%;
+				font-size: 1em;
+        margin-left : 255px;
+        margin-top : -30px;
+        float : left;
+     
+			}
+
+      .box {
+  background-color : #c5919d;
+  width : 200px;
+  padding : 25px;
+  margin : 25px;
+  height : 480px;
+  font-family: 'Lucida Grande', sans-serif;
+  color : #ffffff;      
+  }
+
+.channels {
+  text-align: center;
+}
+
+
+

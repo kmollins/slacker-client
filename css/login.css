@@ -1,0 +1,38 @@
+*{
+  box-sizing : border-box;
+  font-family : "Lucida Grande", sans-serif;
+  }
+
+img {
+  border-radius : 50%;
+  max-height : 200px;
+  float : left;
+  border : 5px solid #c5919d;
+  }
+
+aside {
+  margin : 20px;
+  padding-left : 240px; 
+  width : 60%;
+  }
+
+h1 {
+  font-family : "Impact", sans-serif;
+  color : #c5919d;
+  text-align : left;
+  font-size : 30px  
+  }
+
+ span {
+  display : inline-block;
+  width : 6rem; 
+  font-family : "Impact", sans-serif;
+  color : #c5919d;
+  
+  }
+
+ section {
+  border-top : 2px solid #c5919d
+  }
+
+
