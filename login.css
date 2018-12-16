@@ -1,38 +1,72 @@
 *{
   box-sizing : border-box;
   font-family : "Lucida Grande", sans-serif;
-  }
+}
 
 img {
-  border-radius : 50%;
-  max-height : 200px;
+  border-radius : 10%;
+  max-height : 300px;
   float : left;
-  border : 5px solid #c5919d;
-  }
+  border : 5px solid #c5919d; 
+}
+
+body {
+  border: 2px solid #000000;
+  padding: 50px;
+  margin: 100px;
+  padding-bottom: 100px;
+
+}
+
 
 aside {
-  margin : 20px;
-  padding-left : 240px; 
-  width : 60%;
-  }
+  margin : 10px;
+  padding-left : 460px; 
+  width : 80%;
+}
 
 h1 {
   font-family : "Impact", sans-serif;
   color : #c5919d;
   text-align : left;
-  font-size : 30px  
-  }
-
- span {
-  display : inline-block;
-  width : 6rem; 
-  font-family : "Impact", sans-serif;
-  color : #c5919d;
+  font-size : 40px  
   
   }
+h2 {
+  color : #525252;
+  font-size : 25px
+ 
+}
 
- section {
-  border-top : 2px solid #c5919d
-  }
+h3 { 
+color : #525252;
+}
 
 
+section { 
+  float : left;
+  margin : 10px;
+  padding-left : 55px; 
+  width : 60%;
+}
+
+span {
+font-family : "Impact", sans-serif;
+color : #c5919d;
+  
+}
+
+#username { 
+float : left;
+  
+}
+
+#password {
+  float : left; 
+}
+
+button {
+font-family : "Impact", sans-serif;
+color : #c5919d;
+
+}
